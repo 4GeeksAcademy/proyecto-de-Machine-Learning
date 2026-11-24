@@ -1,3 +1,9 @@
 __pycache__
 .env
 .learn
+# Datos de imagenes y modelos intermedios (muy pesados)
+data/raw/*
+data/processed/*
+data/interim/*
+!data/**/.gitkeep
+models/best_model.keras
